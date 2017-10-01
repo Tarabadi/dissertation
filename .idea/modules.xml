@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dissertation.iml" filepath="$PROJECT_DIR$/Dissertation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metadata-extractor-master/metadata-extractor-master.iml" filepath="$PROJECT_DIR$/metadata-extractor-master/metadata-extractor-master.iml" />
+    </modules>
+  </component>
+</project>

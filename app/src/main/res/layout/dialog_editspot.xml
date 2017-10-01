@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/photopreview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:paddingTop="20dp"
+        android:layout_below="@id/my_toolbar"
+        />
+
+    <EditText
+        android:id="@+id/spotTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/photopreview"
+        android:layout_alignParentRight="true"
+        android:hint="@string/spotTitleHint"/>
+
+    <EditText
+        android:id="@+id/spotDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/photopreview"
+        android:layout_below="@id/spotTitle"
+        android:layout_alignParentRight="true"
+        android:hint="@string/spotDescHint"/>
+    <!--
+        <com.google.android.gms.maps.MapView
+            android:paddingTop="20dp"
+            android:id="@+id/dialog_edit_map"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/spotDesc"
+            map:liteMode="true"
+            map:mapType="none"/>
+    -->
+
+
+
+    </RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Upload Photo", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_upload_photo"
+        android:title="@string/mainMenuUpload"
+        app:showAsAction="ifRoom"
+        />
+
+    <!-- "Take Photo", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_take_photo"
+        android:title="@string/mainMenuTake"
+        app:showAsAction="ifRoom"
+        />
+
+
+    <!--"Refresh list", should appear as action button if possible -->
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/mainMenuRefresh"
+        app:showAsAction="ifRoom"
+        />
+    <!-- Settings, should always be in the overflow -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/mainMenuSettings"
+        app:showAsAction="never"
+        />
+
+</menu>

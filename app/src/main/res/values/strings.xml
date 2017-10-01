@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">GeoSkate</string>
+    <string name="change_image">Fetch new image</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="spotTitleHint">Title of Spot</string>
+    <string name="spotDescHint">Description of Spot</string>
+    <string name="dialogPosi">Okay</string>
+    <string name="dialogNeg">Cancel</string>
+
+    <string name="mainMenuUpload">Select Photo</string>
+    <string name="mainMenuTake">Take Photo</string>
+    <string name="mainMenuRefresh">Refresh</string>
+    <string name="mainMenuSettings">Settings</string>
+
+    <string name="pref_geoAlertTitle">Disable Location Reminder</string>
+    <string name="pref_geoAlertDesc">Disable the popup usually displayed when uploading a
+    previously taken photo</string>
+
+    <string name="uploadAlertText">The upload feature only works with photos that have location tags attached.
+        To ensure this works, enable location tags in the settings of your camera app and have location services
+        enabled when taking photos.</string>
+    <string name="uploadCheckboxText">Don\'t show this message again.</string>
+
+    <string name="toolbarMainTitle"> </string>
+    <string name="toolbarPrefTitle">Settings</string>
+
+    <string name="noInfoToast">Please provide a title and description for the spot</string>
+
+    <string name="spotDisplayButton">Get Directions to Spot</string>
+
+    <string name="noGeoDataButton">Okay</string>
+
+    <string name="noGeoData">The photo selected has no location data attached. For this feature to
+        work, enable location tags in the settings of your camera app and have location services
+        enabled when taking photos</string>
+
+    <string name="noLocationGotten">Location data can\'t be accessed. Please ensure location services are
+    enabled, and refresh the list or restart the application</string>
+    <string name="noLocationListEmptyText">No data, enable location services and refresh</string>
+
+</resources>

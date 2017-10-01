@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <CheckBoxPreference
+        android:key="pref_geoAlert"
+        android:title="@string/pref_geoAlertTitle"
+        android:summary="@string/pref_geoAlertDesc"
+        android:defaultValue="false" />
+
+</PreferenceScreen>

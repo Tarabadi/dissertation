@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:map="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/spotPhotoDisplay"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/spotTitleDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/spotPhotoDisplay"
+        android:layout_alignParentRight="true"
+        android:hint="@string/spotTitleHint"/>
+
+    <TextView
+        android:id="@+id/spotDescDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/spotPhotoDisplay"
+        android:layout_below="@id/spotTitleDisplay"
+        android:layout_alignParentRight="true"
+        android:hint="@string/spotDescHint"/>
+
+    <Button
+        android:id="@+id/spotButtonDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/spotDisplayButton"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/spotDescDisplay"/>
+
+
+
+</RelativeLayout>
